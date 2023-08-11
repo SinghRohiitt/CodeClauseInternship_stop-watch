@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 30%;
+    height: 250px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 5px;
+}
+
+#timer{
+    width: 100%;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.buttons{
+    text-align: center;
+    margin-top: 35px;
+}
+
+button{
+    font-size: 2rem;
+    margin: 0 20px;
+    padding: 10px;
+}
+#playPauseBtn{
+    background-color: rgb(73, 221, 73);
+}
+#resetBtn{
+    background-color: rgb(228, 49, 49);
+}
+#pause{
+    background-color: rgb(224, 224, 92);
+}
